@@ -1,0 +1,50 @@
+{
+  "name": "3d-react-carousal",
+  "version": "3.1.0",
+  "description": "3D carousel in react",
+  "main": "dist/index.js",
+  "peerDependencies": {
+    "react": "^16.7.0",
+    "react-dom": ">=16.13.1"
+  },
+  "dependencies": {
+    "react-fast-compare": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "prepublish": "if exist dist ( rmdir /s/q dist ) && npm run build",
+    "build": "webpack"
+  },
+  "author": "Suhail C <mr.suhailsulu@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhailsulu/react-carousel-3d.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "node-sass": "^4.9.3",
+    "react": ">=16.7.0",
+    "react-dom": ">=16.13.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.11"
+  },
+  "bugs": {
+    "url": "https://github.com/suhailsulu/react-carousel-3d/issues"
+  },
+  "homepage": "https://github.com/suhailsulu/react-carousel-3d#readme",
+  "keywords": [
+    "react",
+    "carousal",
+    "3d-carousal"
+  ],
+  "license": "MIT"
+}
